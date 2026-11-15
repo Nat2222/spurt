@@ -1,0 +1,90 @@
+/* Opmaak van de oude site van Sportclub De Spurt. Bewust gedateerd: dit is de site die de klant wil verbeteren. */
+
+body {
+    background-color: green;
+    font-size: 13px;
+
+  
+	font-family: system-ui, sans-serif;
+	line-height: 1.6;
+}
+
+#pagina {
+    width: 760px;
+    margin: 10px auto;
+    padding: 45px;
+    background-color: white;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    text-decoration: underline;
+}
+
+.ondertitel {
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.menu {
+    text-align: center;
+    background-color: green;
+    padding: 5px;
+}
+
+.menu a {
+    color: white;
+}
+
+.voet {
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+}
+
+p.menu a {
+    margin-left: 10px;
+  margin-right: 10px;
+}
+
+#proefles {
+  padding: 10px;
+  background-color: green;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+#proefles h2 {
+    color: white;
+}
+
+#proefles p {
+    color: white;
+}
+
+
+#proefles a {
+    color: white;
+  font-weight: bold;
+}
+
+ a {
+    font-weight: bold;
+  color: black;
+}
+
+span { 
+    border: 2px solid black;
+}
+
+#alinea-wit {
+   
+    padding-top: 5px;
+    padding-bottom:     5px;
+}
