@@ -1,4 +1,7 @@
 /* Opmaak van de oude site van Sportclub De Spurt. Bewust gedateerd: dit is de site die de klant wil verbeteren. */
+* {
+    box-sizing: border-box;
+}
 
 body {
     background-color: green;
