@@ -12,6 +12,11 @@ body {
 	line-height: 1.6;
 }
 
+body.donker { 
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
 #pagina {
     width: 760px;
     margin: 10px auto;
@@ -38,11 +43,25 @@ h2 {
 .menu {
     text-align: center;
     background-color: green;
-    padding: 5px;
+     padding: 10px 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 
 .menu a {
     color: white;
+}
+
+@media (max-width: 540px) {
+    .menu {
+        flex-direction: column;
+        gap: 15px; 
+    }
 }
 
 .voet {
@@ -135,3 +154,27 @@ span {
     border-radius: 6px;
 }
 
+.btn {
+    background-color: green;
+    color: white;
+}
+
+
+
+/*#thema {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
