@@ -98,6 +98,8 @@ span {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: stretch;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .kaart {
@@ -117,3 +119,19 @@ span {
         width: 100%;
     }
 }
+
+/*kaartenrij grid versie */
+.kaartenrij-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.kaart-grid {
+    padding: 1rem;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+}
+
