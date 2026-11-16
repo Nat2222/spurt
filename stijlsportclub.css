@@ -112,4 +112,8 @@ span {
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+    #pagina {     
+        width: 100%;
+    }
 }
